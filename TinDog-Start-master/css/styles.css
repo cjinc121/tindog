@@ -1,0 +1,120 @@
+body{
+  font-family: 'Roboto Slab', serif;
+}
+#title{
+  color:#fff;
+}
+.container-fluid{
+  padding:3% 8% 15%;
+    background-color: #ff4c68;
+}
+h1{
+    font-family: 'Roboto Slab-bold', serif;
+    font-size: 3rem;
+    line-height:1.5;
+}
+h2{
+  font-family: 'Roboto Slab-bold', serif;
+  font-size: 2rem;
+  line-height:1.5;
+}
+h3{
+  font-family: 'Roboto Slab-bold', serif;
+  font-size: 1.5rem;
+}
+p{
+  color:grey;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+
+}
+.nav-link{
+  font-size:1.2rem;
+}
+.btnpad{
+  margin: 20px 15px 20px 0;
+}
+.main {
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+left: 70px;
+}
+#features{
+  padding:7% 13%;
+  background-color: #fff;
+position:relative;
+
+}
+.fb{
+ text-align: center;
+padding:5%;
+}
+.fas{
+  color:#ef8172;
+}
+.fas:hover{
+  color:#ff4c68;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.carousel-item{
+    padding: 8% 13%;
+}
+.testimg{
+  width:20%;
+  border-radius: 100%;
+  margin:20px;
+
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo{
+  width:15%;
+  margin:20px 20px 15px;
+}
+#pricing{
+  padding:8% 13%;
+  text-align: center;
+}
+@media (max-width:1020px) {
+  #title{
+    text-align: center;
+  }
+  .main{
+    position:static;
+    transform: rotate(0);
+  }
+
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding:4% 10%;
+}
+#footer{
+  text-align: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.foot{
+  padding:1%;
+  color: black;
+}
+.k{
+  padding-bottom: 7px;
+  font-size: 2rem;
+}
